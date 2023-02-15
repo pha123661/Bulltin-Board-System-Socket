@@ -1,7 +1,10 @@
 # Bulltein Board System
 
-A socket-based BBS system written in Python and SQL  
-Course: NCTU 2020 Fall - Introduction to Network programming by Shyan-Ming Yuan
+A socket-based BBS system written in Python and SQL.  
+
+hw1 ~ hw3 implements the same system, but with added functionality in newer versions.  
+
+Course: Introduction to Network programming by Shyan-Ming Yuan (NCTU 2020 Fall)
 
 ## Features
 * Account-related
