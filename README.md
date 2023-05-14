@@ -1,12 +1,11 @@
 # Bulltein Board System
 
-A socket-based BBS system written in Python and SQL.  
-
-hw1 ~ hw3 implements the same system, but with added functionality in newer versions.  
-
-Course: Introduction to Network programming by Shyan-Ming Yuan (NCTU 2020 Fall)
+A socket-based BBS system written in Python and SQL.
 
 ## Features
+
+See [Document.pdf](./Document.pdf) for more information.
+
 * Account-related
   * Registration
   * Login/Logout
@@ -26,3 +25,20 @@ Course: Introduction to Network programming by Shyan-Ming Yuan (NCTU 2020 Fall)
   * Get past messages from the chat room when you join
 * Supports multiple users with multi-threading
 * Supports both TCP and UDP connections
+
+## Deployment
+
+Note: Only works with Linux systems.
+
+Server:
+Binds to all ip addresses ("0.0.0.0") in the server
+
+```sh
+python server.py {PORT}
+```
+
+Client:
+
+```sh
+python client.py {SERVER_IP} {SERVER_PORT}
+```
